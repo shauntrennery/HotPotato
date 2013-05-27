@@ -1,0 +1,23 @@
+!!! 5
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title!= title
+    meta(name="description", content= description)
+    meta(name="keywords", content= site.keywords)
+    meta(name="author", content="Shaun Trennery")
+    meta(name="robots", content="index, follow")
+
+    include includes/meta
+    link(rel="stylesheet", href="/css/hp.css?v=3", type="text/css")
+
+  body(class= err ? "error" : "", class= info ? "info" : "")
+    block content
+
+  script(type="text/javascript")
+    var _gaq=[["_setAccount", "#{site.googleAnalytics.trackingId}"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+
+  block scripts

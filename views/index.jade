@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  div#home.content
+    div.logo-background.potato
+    div#logo.logo.potato
+
+    div.status
+      h2 Connecting...
+
+      div.start(style="display: none")
+        a#start-button(href="javascript:;") Start
+
+    div.login(style="display: none")
+      form#login-form(action="/", method="GET")
+        input#game-name(type="text", name="game", placeholder="Game Name")
+        input#player-name(type="text", name="player", placeholder="Your Name")
+
+block scripts
+  include includes/scripts

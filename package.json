@@ -1,0 +1,24 @@
+{
+  "name": "HotPotato",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Shaun Trennery <shaun.trennery@gmail.com>",
+  "dependencies": {
+    "express": "3.2.4",
+    "jade": "latest",
+    "less": "latest",
+    "less-middleware": "latest",
+    "lodash": "latest",
+    "gzippo": "latest",
+    "cookies": "latest",
+    "socket.io": "latest",
+    "node-minify": "latest"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "subdomain": "hotpotato",
+  "scripts": {
+    "start": "node app.js"
+  }
+}

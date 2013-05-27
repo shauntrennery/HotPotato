@@ -1,0 +1,18 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300");
+html,body,#message{min-height:100%;height:100%;padding:0;margin:0;position:relative;color:#34495e;background-color:#3498db;font-family:"Lato",sans-serif;font-size:18px;line-height:1.231;}
+body.error{background-color:#e74c3c;}
+body.info{background-color:#f1c40f;}
+::-webkit-input-placeholder{color:#fff;}
+:-moz-placeholder{color:#fff;}
+::-moz-placeholder{color:#fff;}
+:-ms-input-placeholder{color:#fff;}
+.content{overflow:hidden;width:100%;}.content .logo-background{width:128px;height:128px;position:absolute;left:50%;top:30px;margin-left:-64px;background:#3498db url(../img/flames.gif) no-repeat 0 -80px;z-index:10;}
+.content .logo{position:absolute;z-index:20;width:128px;height:128px;left:50%;top:30px;margin-left:-64px;background:url('../img/potatos.png?v=1') no-repeat;}
+.content .potato{display:none;}
+.content .status{position:absolute;top:170px;left:0;width:100%;text-align:center;}.content .status h2{color:#fff;font-size:30px;text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.2);}.content .status h2 span{display:block;font-size:18px;margin-top:20px;font-weight:normal;}
+.content .status .start{padding-top:10px;}.content .status .start a{background-color:#1abc9c;width:100%;font-weight:500;font-size:18px;line-height:20px;padding:12px 18px 13px;color:#fff;text-align:center;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;text-decoration:none;}.content .status .start a:hover{background-color:#48c9b0;}
+.content .login{padding:10px;width:220px;position:absolute;top:170px;left:50%;margin-left:-130px;}.content .login input{padding:10px;margin:10px 0;width:200px;font-family:"Lato",sans-serif;font-size:20px;font-weight:bold;line-height:1.231;background-color:#3498db;color:#fff;border:10px solid #fff;outline:none;}.content .login input:focus{outline:none;}
+#progress{position:fixed;z-index:2147483647;top:0;left:0px;width:1%;height:3px;background:#ffffff;-moz-border-radius:1px;-webkit-border-radius:1px;border-radius:1px;-moz-transition:width 1500ms ease-out,opacity 400ms linear;-ms-transition:width 1500ms ease-out,opacity 400ms linear;-o-transition:width 1500ms ease-out,opacity 400ms linear;-webkit-transition:width 1500ms ease-out,opacity 400ms linear;transition:width 1500ms ease-out,opacity 400ms linear;}#progress dd,#progress dt{position:absolute;top:0;height:2px;-moz-box-shadow:#ffffff 1px 0 6px 1px;-ms-box-shadow:#ffffff 1px 0 6px 1px;-webkit-box-shadow:#ffffff 1px 0 6px 1px;box-shadow:#ffffff 1px 0 6px 1px;-moz-border-radius:100%;-webkit-border-radius:100%;border-radius:100%;}
+#progress dt{opacity:.6;width:180px;right:-80px;clip:rect(-6px, 90px, 14px, -6px);}
+#progress dd{opacity:.6;width:20px;right:0;clip:rect(-6px, 22px, 14px, 10px);}
+@media print,(-o-min-device-pixel-ratio:5/4),(-webkit-min-device-pixel-ratio:1.25),(min-resolution:120dpi){.content .logo-container .logo{background:url('../img/potatosx2.png?v=1') no-repeat;background-size:128px 128px;}}
