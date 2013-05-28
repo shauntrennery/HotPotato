@@ -1,14 +1,13 @@
 Hot Potato
 ==========
 
-A node.js / socket.io Hot Potato game
-[http://hotpotato.jitsu.com/][Pure]
+A node.js / socket.io Hot Potato game [http://hotpotato.jitsu.com][HP]
 
 Features
 ========
 
 Hot Potato is a virtual implementation of the popular kids game, Hot Potato. 
-[http://en.wikipedia.org/wiki/Hot_potato_(game)][pure]
+[http://en.wikipedia.org/wiki/Hot_potato_(game)][Wiki]
 
 * Fun, real-time game for two or more people
 * [Socket.IO][] for real-time communications
@@ -18,6 +17,8 @@ Hot Potato is a virtual implementation of the popular kids game, Hot Potato.
 * [Hammer.js][] A JavaScript library for Multi-touch gestures
 * [TweenMax.js][] JavaScript Animation Library
 
+[HP]: http://hotpotato.jitsu.com
+[Wiki]: http://en.wikipedia.org/wiki/Hot_potato_(game)
 [Socket.IO]: http://socket.io/
 [Express.js]: http://expressjs.com/
 [Jade]: http://jade-lang.com/
