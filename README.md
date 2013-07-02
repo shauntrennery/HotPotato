@@ -1,7 +1,7 @@
 Hot Potato
 ==========
 
-A node.js / socket.io Hot Potato game [http://hotpotato.jitsu.com][HP]
+A node.js / socket.io Hot Potato game.
 
 Features
 ========
